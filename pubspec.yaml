@@ -57,6 +57,10 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+    - assets/images/movements/arm/
+    - assets/images/movements/back/
+    - assets/images/movements/chest/
+    - assets/images/movements/leg/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

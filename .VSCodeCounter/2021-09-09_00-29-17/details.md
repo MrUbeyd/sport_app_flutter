@@ -1,0 +1,132 @@
+# Details
+
+Date : 2021-09-09 00:29:17
+
+Directory c:\Users\mubey\Desktop\sport-app-new
+
+Total : 117 files,  10942 codes, 323 comments, 387 blanks, all 11652 lines
+
+[summary](results.md)
+
+## Files
+| filename | language | code | comment | blank | total |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| [README.md](/README.md) | Markdown | 10 | 0 | 7 | 17 |
+| [android/app/build.gradle](/android/app/build.gradle) | Groovy | 51 | 3 | 14 | 68 |
+| [android/app/google-services.json](/android/app/google-services.json) | JSON | 39 | 0 | 0 | 39 |
+| [android/app/src/debug/AndroidManifest.xml](/android/app/src/debug/AndroidManifest.xml) | XML | 4 | 3 | 1 | 8 |
+| [android/app/src/main/AndroidManifest.xml](/android/app/src/main/AndroidManifest.xml) | XML | 34 | 11 | 2 | 47 |
+| [android/app/src/main/res/drawable-v21/launch_background.xml](/android/app/src/main/res/drawable-v21/launch_background.xml) | XML | 4 | 7 | 2 | 13 |
+| [android/app/src/main/res/drawable/launch_background.xml](/android/app/src/main/res/drawable/launch_background.xml) | XML | 4 | 7 | 2 | 13 |
+| [android/app/src/main/res/values-night/styles.xml](/android/app/src/main/res/values-night/styles.xml) | XML | 9 | 9 | 1 | 19 |
+| [android/app/src/main/res/values/styles.xml](/android/app/src/main/res/values/styles.xml) | XML | 9 | 9 | 1 | 19 |
+| [android/app/src/profile/AndroidManifest.xml](/android/app/src/profile/AndroidManifest.xml) | XML | 4 | 3 | 1 | 8 |
+| [android/build.gradle](/android/build.gradle) | Groovy | 28 | 0 | 5 | 33 |
+| [android/gradle.properties](/android/gradle.properties) | Properties | 3 | 0 | 1 | 4 |
+| [android/gradle/wrapper/gradle-wrapper.properties](/android/gradle/wrapper/gradle-wrapper.properties) | Properties | 5 | 1 | 1 | 7 |
+| [android/settings.gradle](/android/settings.gradle) | Groovy | 19 | 0 | 6 | 25 |
+| [assets/icons/chat.svg](/assets/icons/chat.svg) | XML | 134 | 1 | 0 | 135 |
+| [assets/icons/facebook.svg](/assets/icons/facebook.svg) | XML | 1 | 0 | 0 | 1 |
+| [assets/icons/google-plus.svg](/assets/icons/google-plus.svg) | XML | 46 | 1 | 1 | 48 |
+| [assets/icons/log-in.svg](/assets/icons/log-in.svg) | XML | 278 | 0 | 2 | 280 |
+| [assets/icons/login.svg](/assets/icons/login.svg) | XML | 151 | 1 | 0 | 152 |
+| [assets/icons/sign-up.svg](/assets/icons/sign-up.svg) | XML | 428 | 0 | 2 | 430 |
+| [assets/icons/signup.svg](/assets/icons/signup.svg) | XML | 80 | 1 | 0 | 81 |
+| [assets/icons/twitter.svg](/assets/icons/twitter.svg) | XML | 46 | 1 | 1 | 48 |
+| [ios/Runner/AppDelegate.swift](/ios/Runner/AppDelegate.swift) | Swift | 12 | 0 | 2 | 14 |
+| [ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json](/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json) | JSON | 122 | 0 | 1 | 123 |
+| [ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json](/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json) | JSON | 23 | 0 | 1 | 24 |
+| [ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md](/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md) | Markdown | 3 | 0 | 2 | 5 |
+| [ios/Runner/Base.lproj/LaunchScreen.storyboard](/ios/Runner/Base.lproj/LaunchScreen.storyboard) | XML | 36 | 1 | 1 | 38 |
+| [ios/Runner/Base.lproj/Main.storyboard](/ios/Runner/Base.lproj/Main.storyboard) | XML | 25 | 1 | 1 | 27 |
+| [ios/Runner/Runner-Bridging-Header.h](/ios/Runner/Runner-Bridging-Header.h) | C++ | 1 | 0 | 1 | 2 |
+| [lib/Screens/Home/homeScreen.dart](/lib/Screens/Home/homeScreen.dart) | Dart | 122 | 5 | 4 | 131 |
+| [lib/Screens/Login/components/background.dart](/lib/Screens/Login/components/background.dart) | Dart | 38 | 2 | 3 | 43 |
+| [lib/Screens/Login/components/body.dart](/lib/Screens/Login/components/body.dart) | Dart | 113 | 60 | 7 | 180 |
+| [lib/Screens/Login/login_screen.dart](/lib/Screens/Login/login_screen.dart) | Dart | 10 | 0 | 2 | 12 |
+| [lib/Screens/Movements/ArmMoves/barbell_military_press.dart](/lib/Screens/Movements/ArmMoves/barbell_military_press.dart) | Dart | 82 | 0 | 2 | 84 |
+| [lib/Screens/Movements/ArmMoves/bicep_curls.dart](/lib/Screens/Movements/ArmMoves/bicep_curls.dart) | Dart | 85 | 0 | 4 | 89 |
+| [lib/Screens/Movements/ArmMoves/cable_curls.dart](/lib/Screens/Movements/ArmMoves/cable_curls.dart) | Dart | 86 | 0 | 3 | 89 |
+| [lib/Screens/Movements/ArmMoves/cable_front_raises.dart](/lib/Screens/Movements/ArmMoves/cable_front_raises.dart) | Dart | 86 | 0 | 2 | 88 |
+| [lib/Screens/Movements/ArmMoves/cable_tricep_extensions.dart](/lib/Screens/Movements/ArmMoves/cable_tricep_extensions.dart) | Dart | 93 | 0 | 8 | 101 |
+| [lib/Screens/Movements/ArmMoves/concentration_curls.dart](/lib/Screens/Movements/ArmMoves/concentration_curls.dart) | Dart | 83 | 0 | 3 | 86 |
+| [lib/Screens/Movements/ArmMoves/dumbbell_curls.dart](/lib/Screens/Movements/ArmMoves/dumbbell_curls.dart) | Dart | 84 | 0 | 3 | 87 |
+| [lib/Screens/Movements/ArmMoves/dumbbell_lateral_raises.dart](/lib/Screens/Movements/ArmMoves/dumbbell_lateral_raises.dart) | Dart | 86 | 0 | 2 | 88 |
+| [lib/Screens/Movements/ArmMoves/machine_triceps_extensions.dart](/lib/Screens/Movements/ArmMoves/machine_triceps_extensions.dart) | Dart | 87 | 0 | 7 | 94 |
+| [lib/Screens/Movements/ArmMoves/preacher_barbell_curls.dart](/lib/Screens/Movements/ArmMoves/preacher_barbell_curls.dart) | Dart | 82 | 0 | 2 | 84 |
+| [lib/Screens/Movements/ArmMoves/seated_dumbbell_press.dart](/lib/Screens/Movements/ArmMoves/seated_dumbbell_press.dart) | Dart | 88 | 0 | 2 | 90 |
+| [lib/Screens/Movements/ArmMoves/seated_machine_press.dart](/lib/Screens/Movements/ArmMoves/seated_machine_press.dart) | Dart | 85 | 0 | 5 | 90 |
+| [lib/Screens/Movements/ArmMoves/standing_barbell_triceps_extension.dart](/lib/Screens/Movements/ArmMoves/standing_barbell_triceps_extension.dart) | Dart | 82 | 0 | 2 | 84 |
+| [lib/Screens/Movements/ArmMoves/standing_dumbbell_triceps_extension.dart](/lib/Screens/Movements/ArmMoves/standing_dumbbell_triceps_extension.dart) | Dart | 83 | 0 | 2 | 85 |
+| [lib/Screens/Movements/ArmMoves/tricep_kickbacks.dart](/lib/Screens/Movements/ArmMoves/tricep_kickbacks.dart) | Dart | 88 | 0 | 2 | 90 |
+| [lib/Screens/Movements/ArmMoves/underhand_chinUps.dart](/lib/Screens/Movements/ArmMoves/underhand_chinUps.dart) | Dart | 82 | 0 | 2 | 84 |
+| [lib/Screens/Movements/ArmMoves/upright_row_barbell.dart](/lib/Screens/Movements/ArmMoves/upright_row_barbell.dart) | Dart | 86 | 0 | 3 | 89 |
+| [lib/Screens/Movements/BackMoves/bentOver_rows.dart](/lib/Screens/Movements/BackMoves/bentOver_rows.dart) | Dart | 84 | 0 | 2 | 86 |
+| [lib/Screens/Movements/BackMoves/machine_lat_puldowns.dart](/lib/Screens/Movements/BackMoves/machine_lat_puldowns.dart) | Dart | 86 | 0 | 2 | 88 |
+| [lib/Screens/Movements/BackMoves/one_arm_bentOver_rows.dart](/lib/Screens/Movements/BackMoves/one_arm_bentOver_rows.dart) | Dart | 83 | 0 | 3 | 86 |
+| [lib/Screens/Movements/BackMoves/t_bar_rows.dart](/lib/Screens/Movements/BackMoves/t_bar_rows.dart) | Dart | 82 | 0 | 2 | 84 |
+| [lib/Screens/Movements/BackMoves/widegrip_pullups.dart](/lib/Screens/Movements/BackMoves/widegrip_pullups.dart) | Dart | 85 | 0 | 2 | 87 |
+| [lib/Screens/Movements/ChestMoves/decline_bench_press.dart](/lib/Screens/Movements/ChestMoves/decline_bench_press.dart) | Dart | 87 | 0 | 2 | 89 |
+| [lib/Screens/Movements/ChestMoves/dumbbell_bench_press.dart](/lib/Screens/Movements/ChestMoves/dumbbell_bench_press.dart) | Dart | 86 | 0 | 2 | 88 |
+| [lib/Screens/Movements/ChestMoves/dumbbell_fly.dart](/lib/Screens/Movements/ChestMoves/dumbbell_fly.dart) | Dart | 86 | 0 | 2 | 88 |
+| [lib/Screens/Movements/ChestMoves/dumbbell_incline_press.dart](/lib/Screens/Movements/ChestMoves/dumbbell_incline_press.dart) | Dart | 90 | 0 | 2 | 92 |
+| [lib/Screens/Movements/ChestMoves/dumbbell_pullovers.dart](/lib/Screens/Movements/ChestMoves/dumbbell_pullovers.dart) | Dart | 84 | 0 | 2 | 86 |
+| [lib/Screens/Movements/ChestMoves/flat_bench_press.dart](/lib/Screens/Movements/ChestMoves/flat_bench_press.dart) | Dart | 85 | 0 | 2 | 87 |
+| [lib/Screens/Movements/ChestMoves/narrow_grip_pushUps.dart](/lib/Screens/Movements/ChestMoves/narrow_grip_pushUps.dart) | Dart | 85 | 0 | 2 | 87 |
+| [lib/Screens/Movements/ChestMoves/pushUps.dart](/lib/Screens/Movements/ChestMoves/pushUps.dart) | Dart | 88 | 0 | 7 | 95 |
+| [lib/Screens/Movements/LegMoves/barbell_deadlifts.dart](/lib/Screens/Movements/LegMoves/barbell_deadlifts.dart) | Dart | 83 | 0 | 3 | 86 |
+| [lib/Screens/Movements/LegMoves/barbell_squats.dart](/lib/Screens/Movements/LegMoves/barbell_squats.dart) | Dart | 87 | 0 | 5 | 92 |
+| [lib/Screens/Movements/LegMoves/cable_squats.dart](/lib/Screens/Movements/LegMoves/cable_squats.dart) | Dart | 82 | 0 | 2 | 84 |
+| [lib/Screens/Movements/LegMoves/dumbbell_squats.dart](/lib/Screens/Movements/LegMoves/dumbbell_squats.dart) | Dart | 85 | 0 | 2 | 87 |
+| [lib/Screens/Movements/LegMoves/leg_extensions.dart](/lib/Screens/Movements/LegMoves/leg_extensions.dart) | Dart | 86 | 0 | 4 | 90 |
+| [lib/Screens/Signup/choseUsernameScreen.dart](/lib/Screens/Signup/choseUsernameScreen.dart) | Dart | 91 | 36 | 6 | 133 |
+| [lib/Screens/Signup/components/background.dart](/lib/Screens/Signup/components/background.dart) | Dart | 38 | 3 | 3 | 44 |
+| [lib/Screens/Signup/components/body.dart](/lib/Screens/Signup/components/body.dart) | Dart | 117 | 24 | 6 | 147 |
+| [lib/Screens/Signup/components/or_divider.dart](/lib/Screens/Signup/components/or_divider.dart) | Dart | 36 | 0 | 3 | 39 |
+| [lib/Screens/Signup/components/social_icon.dart](/lib/Screens/Signup/components/social_icon.dart) | Dart | 34 | 0 | 3 | 37 |
+| [lib/Screens/Signup/signup_screen.dart](/lib/Screens/Signup/signup_screen.dart) | Dart | 10 | 0 | 2 | 12 |
+| [lib/Screens/Signup/userNameSelection.dart](/lib/Screens/Signup/userNameSelection.dart) | Dart | 14 | 0 | 2 | 16 |
+| [lib/Screens/Welcome/components/background.dart](/lib/Screens/Welcome/components/background.dart) | Dart | 38 | 2 | 3 | 43 |
+| [lib/Screens/Welcome/components/body.dart](/lib/Screens/Welcome/components/body.dart) | Dart | 58 | 8 | 2 | 68 |
+| [lib/Screens/Welcome/welcome_screen.dart](/lib/Screens/Welcome/welcome_screen.dart) | Dart | 10 | 0 | 2 | 12 |
+| [lib/Screens/diets_detail_screen.dart](/lib/Screens/diets_detail_screen.dart) | Dart | 110 | 0 | 4 | 114 |
+| [lib/Screens/meal_detail_screen.dart](/lib/Screens/meal_detail_screen.dart) | Dart | 169 | 1 | 4 | 174 |
+| [lib/Screens/userProfile/userProfile.dart](/lib/Screens/userProfile/userProfile.dart) | Dart | 212 | 9 | 20 | 241 |
+| [lib/Screens/workout_screen.dart](/lib/Screens/workout_screen.dart) | Dart | 147 | 1 | 3 | 151 |
+| [lib/armMovements.dart](/lib/armMovements.dart) | Dart | 939 | 0 | 2 | 941 |
+| [lib/authentication_service.dart](/lib/authentication_service.dart) | Dart | 131 | 20 | 15 | 166 |
+| [lib/backMovements.dart](/lib/backMovements.dart) | Dart | 302 | 0 | 2 | 304 |
+| [lib/calculate/calculate.dart](/lib/calculate/calculate.dart) | Dart | 10 | 0 | 2 | 12 |
+| [lib/calculate/components/background.dart](/lib/calculate/components/background.dart) | Dart | 38 | 3 | 3 | 44 |
+| [lib/calculate/components/body.dart](/lib/calculate/components/body.dart) | Dart | 209 | 18 | 15 | 242 |
+| [lib/chestMovements.dart](/lib/chestMovements.dart) | Dart | 460 | 0 | 2 | 462 |
+| [lib/components/already_have_an_account_acheck.dart](/lib/components/already_have_an_account_acheck.dart) | Dart | 33 | 0 | 3 | 36 |
+| [lib/components/roundedInput.dart](/lib/components/roundedInput.dart) | Dart | 25 | 0 | 4 | 29 |
+| [lib/components/rounded_button.dart](/lib/components/rounded_button.dart) | Dart | 34 | 0 | 3 | 37 |
+| [lib/components/rounded_input_field.dart](/lib/components/rounded_input_field.dart) | Dart | 31 | 0 | 3 | 34 |
+| [lib/components/rounded_input_nameSurname.dart](/lib/components/rounded_input_nameSurname.dart) | Dart | 31 | 0 | 3 | 34 |
+| [lib/components/rounded_input_userName_field.dart](/lib/components/rounded_input_userName_field.dart) | Dart | 31 | 0 | 3 | 34 |
+| [lib/components/rounded_password_field.dart](/lib/components/rounded_password_field.dart) | Dart | 45 | 0 | 5 | 50 |
+| [lib/components/snackBar.dart](/lib/components/snackBar.dart) | Dart | 49 | 0 | 5 | 54 |
+| [lib/components/text_field_container.dart](/lib/components/text_field_container.dart) | Dart | 23 | 0 | 3 | 26 |
+| [lib/constants.dart](/lib/constants.dart) | Dart | 3 | 1 | 2 | 6 |
+| [lib/frontLayer.dart](/lib/frontLayer.dart) | Dart | 337 | 3 | 10 | 350 |
+| [lib/legMovements.dart](/lib/legMovements.dart) | Dart | 300 | 0 | 2 | 302 |
+| [lib/main.dart](/lib/main.dart) | Dart | 24 | 1 | 3 | 28 |
+| [lib/model/diets.dart](/lib/model/diets.dart) | Dart | 154 | 0 | 3 | 157 |
+| [lib/model/fat_burn_workout.dart](/lib/model/fat_burn_workout.dart) | Dart | 119 | 0 | 3 | 122 |
+| [lib/model/gain_muscle.dart](/lib/model/gain_muscle.dart) | Dart | 180 | 0 | 3 | 183 |
+| [lib/model/meal.dart](/lib/model/meal.dart) | Dart | 69 | 0 | 3 | 72 |
+| [lib/model/protection_workout.dart](/lib/model/protection_workout.dart) | Dart | 68 | 0 | 3 | 71 |
+| [lib/model/upper_body_workout.dart](/lib/model/upper_body_workout.dart) | Dart | 74 | 0 | 3 | 77 |
+| [lib/playbook.dart](/lib/playbook.dart) | Dart | 319 | 0 | 3 | 322 |
+| [lib/programs.dart](/lib/programs.dart) | Dart | 451 | 0 | 3 | 454 |
+| [lib/workoutForFatBurn.dart](/lib/workoutForFatBurn.dart) | Dart | 131 | 1 | 3 | 135 |
+| [lib/workoutForMuscle.dart](/lib/workoutForMuscle.dart) | Dart | 131 | 1 | 3 | 135 |
+| [lib/workoutForProtection.dart](/lib/workoutForProtection.dart) | Dart | 131 | 1 | 3 | 135 |
+| [pubspec.yaml](/pubspec.yaml) | YAML | 39 | 38 | 11 | 88 |
+| [test/widget_test.dart](/test/widget_test.dart) | Dart | 14 | 10 | 7 | 31 |
+| [web/index.html](/web/index.html) | HTML | 26 | 15 | 5 | 46 |
+| [web/manifest.json](/web/manifest.json) | JSON | 23 | 0 | 1 | 24 |
+
+[summary](results.md)

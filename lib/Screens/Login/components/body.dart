@@ -41,11 +41,6 @@ class _BodyState extends State<Body> {
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(height: size.height * 0.03),
-            /*
-            SvgPicture.asset(
-              "assets/icons/log-in.svg",
-              height: size.height * 0.25,
-            ),*/
             SizedBox(height: size.height * 0.03),
             RoundedInputField(
               hintText: "Your Email",
@@ -100,42 +95,6 @@ class _BodyState extends State<Body> {
                         );
                       });
                   return e.message;
-                  //this line down below is error outputs with platform density...
-                  /*
-                  authProblems errorType;
-                  if (Platform.isAndroid) {
-                    switch (e.message) {
-                      case 'There is no user record corresponding to this identifier. The user may have been deleted.':
-                        errorType = authProblems.UserNotFound;
-                        break;
-                      case 'The password is invalid or the user does not have a password.':
-                        errorType = authProblems.PasswordNotValid;
-                        break;
-                      case 'A network error (such as timeout, interrupted connection or unreachable host) has occurred.':
-                        errorType = authProblems.NetworkError;
-                        break;
-                      // ...
-                      default:
-                        print('Case ${e.message} is not yet implemented');
-                    }
-                  } else if (Platform.isIOS) {
-                    switch (e.code) {
-                      case 'Error 17011':
-                        errorType = authProblems.UserNotFound;
-                        break;
-                      case 'Error 17009':
-                        errorType = authProblems.PasswordNotValid;
-                        break;
-                      case 'Error 17020':
-                        errorType = authProblems.NetworkError;
-                        break;
-                      // ...
-                      default:
-                        print('Case ${e.message} is not yet implemented');
-                    }
-                  }
-                  print('The error is $errorType');
-                  */
                 }
               },
             ),

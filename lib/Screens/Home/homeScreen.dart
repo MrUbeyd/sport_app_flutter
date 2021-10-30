@@ -1,6 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:backdrop/backdrop.dart';
 import 'package:sport_app/Screens/Welcome/welcome_screen.dart';
 import 'package:sport_app/Screens/userProfile/userProfile.dart';
 import 'package:sport_app/frontLayer.dart';
@@ -68,12 +67,6 @@ class _HomeScreenState extends State<HomeScreen> {
         PlayBook(),
         UserProfile(),
       ][currentIndex],
-      /* // This for plus(add) sign on the right side of bottom bar
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: Icon(Icons.add),
-        backgroundColor: Colors.red,
-      ),*/
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
       bottomNavigationBar: BubbleBottomBar(
         opacity: .1,

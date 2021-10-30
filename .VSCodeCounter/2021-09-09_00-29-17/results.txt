@@ -1,0 +1,192 @@
+Date : 2021-09-09 00:29:17
+Directory : c:\Users\mubey\Desktop\sport-app-new
+Total : 117 files,  10942 codes, 323 comments, 387 blanks, all 11652 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Dart       |         85 |      9,245 |        210 |        311 |      9,766 |
+| XML        |         17 |      1,293 |         56 |         18 |      1,367 |
+| JSON       |          4 |        207 |          0 |          3 |        210 |
+| Groovy     |          3 |         98 |          3 |         25 |        126 |
+| YAML       |          1 |         39 |         38 |         11 |         88 |
+| HTML       |          1 |         26 |         15 |          5 |         46 |
+| Markdown   |          2 |         13 |          0 |          9 |         22 |
+| Swift      |          1 |         12 |          0 |          2 |         14 |
+| Properties |          2 |          8 |          1 |          2 |         11 |
+| C++        |          1 |          1 |          0 |          1 |          2 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                         | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                            |        117 |     10,942 |        323 |        387 |     11,652 |
+| android                                                                                                      |         13 |        213 |         53 |         37 |        303 |
+| android\app                                                                                                  |          9 |        158 |         52 |         24 |        234 |
+| android\app\src                                                                                              |          7 |         68 |         49 |         10 |        127 |
+| android\app\src\debug                                                                                        |          1 |          4 |          3 |          1 |          8 |
+| android\app\src\main                                                                                         |          5 |         60 |         43 |          8 |        111 |
+| android\app\src\main\res                                                                                     |          4 |         26 |         32 |          6 |         64 |
+| android\app\src\main\res\drawable                                                                            |          1 |          4 |          7 |          2 |         13 |
+| android\app\src\main\res\drawable-v21                                                                        |          1 |          4 |          7 |          2 |         13 |
+| android\app\src\main\res\values                                                                              |          1 |          9 |          9 |          1 |         19 |
+| android\app\src\main\res\values-night                                                                        |          1 |          9 |          9 |          1 |         19 |
+| android\app\src\profile                                                                                      |          1 |          4 |          3 |          1 |          8 |
+| android\gradle                                                                                               |          1 |          5 |          1 |          1 |          7 |
+| android\gradle\wrapper                                                                                       |          1 |          5 |          1 |          1 |          7 |
+| assets                                                                                                       |          8 |      1,164 |          5 |          6 |      1,175 |
+| assets\icons                                                                                                 |          8 |      1,164 |          5 |          6 |      1,175 |
+| ios                                                                                                          |          7 |        222 |          2 |          9 |        233 |
+| ios\Runner                                                                                                   |          7 |        222 |          2 |          9 |        233 |
+| ios\Runner\Assets.xcassets                                                                                   |          3 |        148 |          0 |          4 |        152 |
+| ios\Runner\Assets.xcassets\AppIcon.appiconset                                                                |          1 |        122 |          0 |          1 |        123 |
+| ios\Runner\Assets.xcassets\LaunchImage.imageset                                                              |          2 |         26 |          0 |          3 |         29 |
+| ios\Runner\Base.lproj                                                                                        |          2 |         61 |          2 |          2 |         65 |
+| lib                                                                                                          |         84 |      9,231 |        200 |        304 |      9,735 |
+| lib\Screens                                                                                                  |         53 |      4,349 |        151 |        181 |      4,681 |
+| lib\Screens\Home                                                                                             |          1 |        122 |          5 |          4 |        131 |
+| lib\Screens\Login                                                                                            |          3 |        161 |         62 |         12 |        235 |
+| lib\Screens\Login\components                                                                                 |          2 |        151 |         62 |         10 |        223 |
+| lib\Screens\Movements                                                                                        |         35 |      2,982 |          0 |        102 |      3,084 |
+| lib\Screens\Movements\ArmMoves                                                                               |         17 |      1,448 |          0 |         54 |      1,502 |
+| lib\Screens\Movements\BackMoves                                                                              |          5 |        420 |          0 |         11 |        431 |
+| lib\Screens\Movements\ChestMoves                                                                             |          8 |        691 |          0 |         21 |        712 |
+| lib\Screens\Movements\LegMoves                                                                               |          5 |        423 |          0 |         16 |        439 |
+| lib\Screens\Signup                                                                                           |          7 |        340 |         63 |         25 |        428 |
+| lib\Screens\Signup\components                                                                                |          4 |        225 |         27 |         15 |        267 |
+| lib\Screens\Welcome                                                                                          |          3 |        106 |         10 |          7 |        123 |
+| lib\Screens\Welcome\components                                                                               |          2 |         96 |         10 |          5 |        111 |
+| lib\Screens\userProfile                                                                                      |          1 |        212 |          9 |         20 |        241 |
+| lib\calculate                                                                                                |          3 |        257 |         21 |         20 |        298 |
+| lib\calculate\components                                                                                     |          2 |        247 |         21 |         18 |        286 |
+| lib\components                                                                                               |          9 |        302 |          0 |         32 |        334 |
+| lib\model                                                                                                    |          6 |        664 |          0 |         18 |        682 |
+| test                                                                                                         |          1 |         14 |         10 |          7 |         31 |
+| web                                                                                                          |          2 |         49 |         15 |          6 |         70 |
++--------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                     | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\mubey\Desktop\sport-app-new\README.md                                                               | Markdown   |         10 |          0 |          7 |         17 |
+| c:\Users\mubey\Desktop\sport-app-new\android\app\build.gradle                                                | Groovy     |         51 |          3 |         14 |         68 |
+| c:\Users\mubey\Desktop\sport-app-new\android\app\google-services.json                                        | JSON       |         39 |          0 |          0 |         39 |
+| c:\Users\mubey\Desktop\sport-app-new\android\app\src\debug\AndroidManifest.xml                               | XML        |          4 |          3 |          1 |          8 |
+| c:\Users\mubey\Desktop\sport-app-new\android\app\src\main\AndroidManifest.xml                                | XML        |         34 |         11 |          2 |         47 |
+| c:\Users\mubey\Desktop\sport-app-new\android\app\src\main\res\drawable-v21\launch_background.xml             | XML        |          4 |          7 |          2 |         13 |
+| c:\Users\mubey\Desktop\sport-app-new\android\app\src\main\res\drawable\launch_background.xml                 | XML        |          4 |          7 |          2 |         13 |
+| c:\Users\mubey\Desktop\sport-app-new\android\app\src\main\res\values-night\styles.xml                        | XML        |          9 |          9 |          1 |         19 |
+| c:\Users\mubey\Desktop\sport-app-new\android\app\src\main\res\values\styles.xml                              | XML        |          9 |          9 |          1 |         19 |
+| c:\Users\mubey\Desktop\sport-app-new\android\app\src\profile\AndroidManifest.xml                             | XML        |          4 |          3 |          1 |          8 |
+| c:\Users\mubey\Desktop\sport-app-new\android\build.gradle                                                    | Groovy     |         28 |          0 |          5 |         33 |
+| c:\Users\mubey\Desktop\sport-app-new\android\gradle.properties                                               | Properties |          3 |          0 |          1 |          4 |
+| c:\Users\mubey\Desktop\sport-app-new\android\gradle\wrapper\gradle-wrapper.properties                        | Properties |          5 |          1 |          1 |          7 |
+| c:\Users\mubey\Desktop\sport-app-new\android\settings.gradle                                                 | Groovy     |         19 |          0 |          6 |         25 |
+| c:\Users\mubey\Desktop\sport-app-new\assets\icons\chat.svg                                                   | XML        |        134 |          1 |          0 |        135 |
+| c:\Users\mubey\Desktop\sport-app-new\assets\icons\facebook.svg                                               | XML        |          1 |          0 |          0 |          1 |
+| c:\Users\mubey\Desktop\sport-app-new\assets\icons\google-plus.svg                                            | XML        |         46 |          1 |          1 |         48 |
+| c:\Users\mubey\Desktop\sport-app-new\assets\icons\log-in.svg                                                 | XML        |        278 |          0 |          2 |        280 |
+| c:\Users\mubey\Desktop\sport-app-new\assets\icons\login.svg                                                  | XML        |        151 |          1 |          0 |        152 |
+| c:\Users\mubey\Desktop\sport-app-new\assets\icons\sign-up.svg                                                | XML        |        428 |          0 |          2 |        430 |
+| c:\Users\mubey\Desktop\sport-app-new\assets\icons\signup.svg                                                 | XML        |         80 |          1 |          0 |         81 |
+| c:\Users\mubey\Desktop\sport-app-new\assets\icons\twitter.svg                                                | XML        |         46 |          1 |          1 |         48 |
+| c:\Users\mubey\Desktop\sport-app-new\ios\Runner\AppDelegate.swift                                            | Swift      |         12 |          0 |          2 |         14 |
+| c:\Users\mubey\Desktop\sport-app-new\ios\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json             | JSON       |        122 |          0 |          1 |        123 |
+| c:\Users\mubey\Desktop\sport-app-new\ios\Runner\Assets.xcassets\LaunchImage.imageset\Contents.json           | JSON       |         23 |          0 |          1 |         24 |
+| c:\Users\mubey\Desktop\sport-app-new\ios\Runner\Assets.xcassets\LaunchImage.imageset\README.md               | Markdown   |          3 |          0 |          2 |          5 |
+| c:\Users\mubey\Desktop\sport-app-new\ios\Runner\Base.lproj\LaunchScreen.storyboard                           | XML        |         36 |          1 |          1 |         38 |
+| c:\Users\mubey\Desktop\sport-app-new\ios\Runner\Base.lproj\Main.storyboard                                   | XML        |         25 |          1 |          1 |         27 |
+| c:\Users\mubey\Desktop\sport-app-new\ios\Runner\Runner-Bridging-Header.h                                     | C++        |          1 |          0 |          1 |          2 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Home\homeScreen.dart                                        | Dart       |        122 |          5 |          4 |        131 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Login\components\background.dart                            | Dart       |         38 |          2 |          3 |         43 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Login\components\body.dart                                  | Dart       |        113 |         60 |          7 |        180 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Login\login_screen.dart                                     | Dart       |         10 |          0 |          2 |         12 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\barbell_military_press.dart              | Dart       |         82 |          0 |          2 |         84 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\bicep_curls.dart                         | Dart       |         85 |          0 |          4 |         89 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\cable_curls.dart                         | Dart       |         86 |          0 |          3 |         89 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\cable_front_raises.dart                  | Dart       |         86 |          0 |          2 |         88 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\cable_tricep_extensions.dart             | Dart       |         93 |          0 |          8 |        101 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\concentration_curls.dart                 | Dart       |         83 |          0 |          3 |         86 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\dumbbell_curls.dart                      | Dart       |         84 |          0 |          3 |         87 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\dumbbell_lateral_raises.dart             | Dart       |         86 |          0 |          2 |         88 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\machine_triceps_extensions.dart          | Dart       |         87 |          0 |          7 |         94 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\preacher_barbell_curls.dart              | Dart       |         82 |          0 |          2 |         84 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\seated_dumbbell_press.dart               | Dart       |         88 |          0 |          2 |         90 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\seated_machine_press.dart                | Dart       |         85 |          0 |          5 |         90 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\standing_barbell_triceps_extension.dart  | Dart       |         82 |          0 |          2 |         84 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\standing_dumbbell_triceps_extension.dart | Dart       |         83 |          0 |          2 |         85 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\tricep_kickbacks.dart                    | Dart       |         88 |          0 |          2 |         90 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\underhand_chinUps.dart                   | Dart       |         82 |          0 |          2 |         84 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ArmMoves\upright_row_barbell.dart                 | Dart       |         86 |          0 |          3 |         89 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\BackMoves\bentOver_rows.dart                      | Dart       |         84 |          0 |          2 |         86 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\BackMoves\machine_lat_puldowns.dart               | Dart       |         86 |          0 |          2 |         88 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\BackMoves\one_arm_bentOver_rows.dart              | Dart       |         83 |          0 |          3 |         86 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\BackMoves\t_bar_rows.dart                         | Dart       |         82 |          0 |          2 |         84 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\BackMoves\widegrip_pullups.dart                   | Dart       |         85 |          0 |          2 |         87 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ChestMoves\decline_bench_press.dart               | Dart       |         87 |          0 |          2 |         89 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ChestMoves\dumbbell_bench_press.dart              | Dart       |         86 |          0 |          2 |         88 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ChestMoves\dumbbell_fly.dart                      | Dart       |         86 |          0 |          2 |         88 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ChestMoves\dumbbell_incline_press.dart            | Dart       |         90 |          0 |          2 |         92 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ChestMoves\dumbbell_pullovers.dart                | Dart       |         84 |          0 |          2 |         86 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ChestMoves\flat_bench_press.dart                  | Dart       |         85 |          0 |          2 |         87 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ChestMoves\narrow_grip_pushUps.dart               | Dart       |         85 |          0 |          2 |         87 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\ChestMoves\pushUps.dart                           | Dart       |         88 |          0 |          7 |         95 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\LegMoves\barbell_deadlifts.dart                   | Dart       |         83 |          0 |          3 |         86 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\LegMoves\barbell_squats.dart                      | Dart       |         87 |          0 |          5 |         92 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\LegMoves\cable_squats.dart                        | Dart       |         82 |          0 |          2 |         84 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\LegMoves\dumbbell_squats.dart                     | Dart       |         85 |          0 |          2 |         87 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Movements\LegMoves\leg_extensions.dart                      | Dart       |         86 |          0 |          4 |         90 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Signup\choseUsernameScreen.dart                             | Dart       |         91 |         36 |          6 |        133 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Signup\components\background.dart                           | Dart       |         38 |          3 |          3 |         44 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Signup\components\body.dart                                 | Dart       |        117 |         24 |          6 |        147 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Signup\components\or_divider.dart                           | Dart       |         36 |          0 |          3 |         39 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Signup\components\social_icon.dart                          | Dart       |         34 |          0 |          3 |         37 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Signup\signup_screen.dart                                   | Dart       |         10 |          0 |          2 |         12 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Signup\userNameSelection.dart                               | Dart       |         14 |          0 |          2 |         16 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Welcome\components\background.dart                          | Dart       |         38 |          2 |          3 |         43 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Welcome\components\body.dart                                | Dart       |         58 |          8 |          2 |         68 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\Welcome\welcome_screen.dart                                 | Dart       |         10 |          0 |          2 |         12 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\diets_detail_screen.dart                                    | Dart       |        110 |          0 |          4 |        114 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\meal_detail_screen.dart                                     | Dart       |        169 |          1 |          4 |        174 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\userProfile\userProfile.dart                                | Dart       |        212 |          9 |         20 |        241 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\Screens\workout_screen.dart                                         | Dart       |        147 |          1 |          3 |        151 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\armMovements.dart                                                   | Dart       |        939 |          0 |          2 |        941 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\authentication_service.dart                                         | Dart       |        131 |         20 |         15 |        166 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\backMovements.dart                                                  | Dart       |        302 |          0 |          2 |        304 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\calculate\calculate.dart                                            | Dart       |         10 |          0 |          2 |         12 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\calculate\components\background.dart                                | Dart       |         38 |          3 |          3 |         44 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\calculate\components\body.dart                                      | Dart       |        209 |         18 |         15 |        242 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\chestMovements.dart                                                 | Dart       |        460 |          0 |          2 |        462 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\components\already_have_an_account_acheck.dart                      | Dart       |         33 |          0 |          3 |         36 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\components\roundedInput.dart                                        | Dart       |         25 |          0 |          4 |         29 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\components\rounded_button.dart                                      | Dart       |         34 |          0 |          3 |         37 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\components\rounded_input_field.dart                                 | Dart       |         31 |          0 |          3 |         34 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\components\rounded_input_nameSurname.dart                           | Dart       |         31 |          0 |          3 |         34 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\components\rounded_input_userName_field.dart                        | Dart       |         31 |          0 |          3 |         34 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\components\rounded_password_field.dart                              | Dart       |         45 |          0 |          5 |         50 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\components\snackBar.dart                                            | Dart       |         49 |          0 |          5 |         54 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\components\text_field_container.dart                                | Dart       |         23 |          0 |          3 |         26 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\constants.dart                                                      | Dart       |          3 |          1 |          2 |          6 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\frontLayer.dart                                                     | Dart       |        337 |          3 |         10 |        350 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\legMovements.dart                                                   | Dart       |        300 |          0 |          2 |        302 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\main.dart                                                           | Dart       |         24 |          1 |          3 |         28 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\model\diets.dart                                                    | Dart       |        154 |          0 |          3 |        157 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\model\fat_burn_workout.dart                                         | Dart       |        119 |          0 |          3 |        122 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\model\gain_muscle.dart                                              | Dart       |        180 |          0 |          3 |        183 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\model\meal.dart                                                     | Dart       |         69 |          0 |          3 |         72 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\model\protection_workout.dart                                       | Dart       |         68 |          0 |          3 |         71 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\model\upper_body_workout.dart                                       | Dart       |         74 |          0 |          3 |         77 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\playbook.dart                                                       | Dart       |        319 |          0 |          3 |        322 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\programs.dart                                                       | Dart       |        451 |          0 |          3 |        454 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\workoutForFatBurn.dart                                              | Dart       |        131 |          1 |          3 |        135 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\workoutForMuscle.dart                                               | Dart       |        131 |          1 |          3 |        135 |
+| c:\Users\mubey\Desktop\sport-app-new\lib\workoutForProtection.dart                                           | Dart       |        131 |          1 |          3 |        135 |
+| c:\Users\mubey\Desktop\sport-app-new\pubspec.yaml                                                            | YAML       |         39 |         38 |         11 |         88 |
+| c:\Users\mubey\Desktop\sport-app-new\test\widget_test.dart                                                   | Dart       |         14 |         10 |          7 |         31 |
+| c:\Users\mubey\Desktop\sport-app-new\web\index.html                                                          | HTML       |         26 |         15 |          5 |         46 |
+| c:\Users\mubey\Desktop\sport-app-new\web\manifest.json                                                       | JSON       |         23 |          0 |          1 |         24 |
+| Total                                                                                                        |            |     10,942 |        323 |        387 |     11,652 |
++--------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

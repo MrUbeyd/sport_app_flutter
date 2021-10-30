@@ -41,7 +41,6 @@ class _BodyState extends State<Body> {
   _BodyState() {
     userID = firebaseUser.uid;
   }
-  //hata var alttaki fonksiyonları kullanamıyoruz yanlış değer dönüyor !!!
 
   Future<String> getMailCurrentUser(var userID) async {
     setState(() {});
@@ -220,19 +219,6 @@ class _BodyState extends State<Body> {
               },
             ),
             SizedBox(height: size.height * 0.03),
-            /*AlreadyHaveAnAccountCheck(
-              login: false,
-              press: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return LoginScreen();
-                    },
-                  ),
-                );
-              },
-            ),*/
           ],
         ),
       ),

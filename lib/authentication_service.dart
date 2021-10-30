@@ -94,9 +94,6 @@ class AuthenticationService {
   }
 
   Future<void> addUserName(String userName, var userID) async {
-    //this must update the storage with
-    //email,nameSurname,messageCount,likes,degree,isPremium
-    //userName must select after and add this data
     CollectionReference userNames =
         FirebaseFirestore.instance.collection('userNames');
     return await userNames
